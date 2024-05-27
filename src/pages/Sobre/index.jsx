@@ -6,15 +6,14 @@ import js from './imagens/icon-js.svg'
 import react from './imagens/icon-react.svg'
 import node from './imagens/icon-node.svg'
 import sql from './imagens/icon-sql.svg'
-
-
+import avatar from './imagens/3x4la.png';
 
 function Sobre() {
     return (
         <>
             <section className={styles.sobre}>
                 <div className={styles.bio}>
-                    <img src='./imagens/3x4la.png' className={styles.avatar} />
+                    <img src={avatar} className={styles.avatar} />
                     <div className={styles.texto}>
                         <h2>Sobre</h2>
                         <p>Sou
