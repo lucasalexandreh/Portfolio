@@ -18,6 +18,7 @@ function Projetos() {
         <>
         <section className={styles.projetos}>
             <h2>Projetos</h2>
+            <h2>‎</h2>
             {
                 repositories.length > 0 ? (
                     <section className={styles.lista}>

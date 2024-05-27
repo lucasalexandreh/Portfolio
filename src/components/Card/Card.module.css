@@ -10,7 +10,14 @@
     flex-direction: column;
     box-shadow: 5px 5px 10px #222222;
     padding: 20px;
-    margin: 20px;
+    margin: 0px 20px 20px 0px;
+    display: inline-block;
+}
+.container-cards {
+    margin-bottom: 20px;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card h3{
     color: var(--primary);
